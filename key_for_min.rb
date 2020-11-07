@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
   else
     name_hash.each do |key, value|
       if lowestValue === 0
-        puts #{value}
+        puts value
       end
     end
   end
