@@ -14,7 +14,6 @@ def key_for_min_value(name_hash)
         lowestValue = value
       end
     end
-    name_hash.key?(value)
-    puts lowestValue
+    name_hash.key?(lowestValue)
   end
 end
