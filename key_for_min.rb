@@ -14,6 +14,6 @@ def key_for_min_value(name_hash)
         lowestValue = value
       end
     end
-    return name_hash[:lowestValue]
+    return name_hash[lowestValue]
   end
 end
